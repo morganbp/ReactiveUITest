@@ -123,5 +123,8 @@
   <data name="Click" xml:space="preserve">
     <value>Click</value>
   </data>
+  <data name="Quit_Button" xml:space="preserve">
+    <value>Quit</value>
+  </data>
 
 </root>
