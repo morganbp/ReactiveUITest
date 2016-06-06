@@ -3,4 +3,8 @@
 <string name="HelloWorld">"Hei Verden"</string>
 <string name="Click">"Klikk"</string>
 <string name="Quit_Button">"Avslutt"</string>
+
+<!-- Error when there is network error -->
+<!-- Message when there are network errors -->
+<string name="Error_Network">"Ingen internet tilkobling. Prøv igjen senere."</string>
 </resources>
