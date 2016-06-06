@@ -126,5 +126,10 @@
   <data name="Quit_Button" xml:space="preserve">
     <value>Quit</value>
   </data>
+  <data name="Error_Network" xml:space="preserve">
+    <value>No internet connection. Please try again.</value>
+    <comment>Error when there is network error
+Message when there are network errors</comment>
+  </data>
 
 </root>
