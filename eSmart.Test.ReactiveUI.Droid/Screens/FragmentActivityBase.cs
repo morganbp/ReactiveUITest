@@ -20,7 +20,6 @@ namespace eSmart.Test.ReactiveUI.Droid
 		{
 			base.OnCreate (savedInstanceState);
 
-			// Create your application here
 		}
 	}
 }

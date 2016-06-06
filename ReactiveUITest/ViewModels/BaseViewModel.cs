@@ -1,11 +1,13 @@
 ﻿using System;
+using ReactiveUI;
 
 namespace ReactiveUITest
 {
-	public class BaseViewModel
+	public class BaseViewModel : ReactiveObject
 	{
-		public BaseViewModel ()
+		public SharedDataViewModel SharedDataViewModelInstance 
 		{
+			get { return SharedDataViewModel.Instance; }
 		}
 	}
 }

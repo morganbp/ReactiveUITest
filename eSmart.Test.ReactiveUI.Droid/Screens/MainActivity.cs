@@ -10,17 +10,34 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using ReactiveUI;
+using ReactiveUITest;
 
 namespace eSmart.Test.ReactiveUI.Droid
 {
 	[Activity (Label = "MainActivity")]			
-	public class MainActivity : Activity
+	public class MainActivity : Activity, IViewFor<MainViewModel>
 	{
+		object IViewFor.ViewModel {
+			get {
+				return ViewModel;
+			}
+			set {
+				ViewModel = (MainViewModel)value;
+			}
+		}
+
+		public MainViewModel ViewModel { get; set; }
+
 		protected override void OnCreate (Bundle savedInstanceState)
 		{
 			base.OnCreate (savedInstanceState);
 
-			// Create your application here
+			SetContentView (Resource.Layout.Main);
+
+			ViewModel = new MainViewModel ();
+
+            AppResources.Name;
 		}
 	}
 }
