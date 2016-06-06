@@ -1,3 +1,7 @@
 "HelloWorld" = "Hello World";
 "Click" = "Click";
 "Quit_Button" = "Quit";
+
+/*Error when there is network error*/
+/*Message when there are network errors*/
+"Error_Network" = "No internet connection. Please try again.";
