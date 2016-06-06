@@ -1,1 +1,6 @@
-﻿<?xml version="1.0" encoding="utf-8" ?> 
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="HelloWorld">"Hei Verden"</string>
+<string name="Click">"Klikk"</string>
+<string name="Quit_Button">"Avslutt"</string>
+</resources>
